@@ -51,3 +51,4 @@ console.log(...anotherRandomThings);
 
 const [I, Am, Saied] = randomThings;
 console.log(I, Am, Saied)
+
