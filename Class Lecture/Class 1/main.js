@@ -30,4 +30,24 @@ randomThings.pop();
 randomThings.splice(3, 1);
 console.log(randomThings);
 
+// see tha type of any data structure 
 
+console.log(typeof randomThings);
+
+
+// Array Spread operator 
+
+console.log(...randomThings);
+
+
+// How to work with Spread
+
+const anotherRandomThings = [randomThings];
+console.log(anotherRandomThings);
+console.log(...anotherRandomThings);
+
+
+// Object Destructuring 
+
+const [I, Am, Saied] = randomThings;
+console.log(I, Am, Saied)
